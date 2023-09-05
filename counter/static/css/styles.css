@@ -1,0 +1,12 @@
+/* グリッドコンテナ */
+#imageContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8列 */
+    grid-gap: 10px; /* グリッドアイテム間の間隔を10pxに設定 */
+}
+
+/* グリッドアイテム（画像） */
+#imageContainer img {
+    width: 100px;/*任意の横幅を指定*/
+    height: 133px;/*任意の高さを指定*/
+}
