@@ -3,6 +3,14 @@
 
 
 {% block main %}
-<h1>ようこそ</h1>
-<img src="{% static 'img/裏面.jpg' %}">
+<!--<img src="{% static 'img/裏面.jpg' %}">-->
+
+<!-- ボタンを追加 -->
+<div class="center-container">
+    <a href="/count">
+        <img src="{% static 'img/裏面.jpg' %}">
+        <button>クリックしてね</button>
+    </a>
+</div>
+
 {% endblock %}
