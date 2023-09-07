@@ -1,0 +1,10 @@
+.navbar {
+    background: pink;
+    font-size: x-large;
+}
+
+.footer {
+    background: lightpink;
+    width: fit-content;
+    font-size: medium;
+}

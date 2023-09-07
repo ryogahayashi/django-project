@@ -21,7 +21,7 @@ images.forEach(image => {
             } else {
                 totalCount -= count; // 選択解除時に合計から減算
             }
-            imageCountDisplay.textContent = totalCount.toFixed(1); // 小数点以下1桁まで表示
+            imageCountDisplay.textContent = totalCount; // 小数点以下1桁まで表示する場合 .toFixed(1);
 
             // 画像要素を取得
             const images = document.querySelectorAll('#imageContainer img');
