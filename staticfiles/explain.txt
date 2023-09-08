@@ -1,9 +1,0 @@
-staticファイル変更時の操作
-
-python manage.py collectstatic
-
-git add -A
-
-git commit -m ""
-
-git push
