@@ -3,7 +3,7 @@ Herokuでdjango-projectを運用するためのリポジトリです。
 
 ローカルリポジトリで以下を実施しgit pushが完了するとHeroku側で自動的にビルド、デプロイしてくれます。
 
-###ローカルリポジトリでの開発方法
+### ローカルリポジトリでの開発方法
 **1.各アプリのstaticをstaticfilesに集める**
 ```bash
 $ python manage.py collectstatic
