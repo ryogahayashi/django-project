@@ -1,8 +1,6 @@
 # django-project
 Herokuでdjango-projectを運用するためのリポジトリです。
 
-ローカルリポジトリで以下を実施しgit pushが完了するとHeroku側で自動的にビルド、デプロイしてくれます。
-
 ### ローカルリポジトリでの開発方法
 **1.各アプリのstaticをstaticfilesに集める**
 ```bash
@@ -23,3 +21,5 @@ $ git commit -m "<コメント>"
 ```bash
 $ git push 
 ```
+
+以上を実施しgit pushが完了するとHeroku側で自動的にビルド、デプロイしてくれます。
